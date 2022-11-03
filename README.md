@@ -44,6 +44,7 @@ The category_id and category_name columns show the designated category number fo
 
 #### Table 2. Subcategory
 ![subcategory](https://user-images.githubusercontent.com/26927158/199852971-6eb8d4c9-788c-4ad6-9aa8-aba61fa05468.png)
+
 Table 2 is formed as a result of assigning the id numbers of each subcategory. Each subcategory in this table is associated with the category table. However, for a broader view of the data, it must be separated into category and subcategory. In the above table, there are 24 subcategorys in total.
 The data of this table is in the "subcategory.csv" file.
 
@@ -79,6 +80,7 @@ Above is a table extracted from the QuickDBD website. The names and data types o
 
 #### Diagram 1. Crowdfunding DB Relationships
 ![crowdfunding_db_relationships](https://user-images.githubusercontent.com/26927158/199854388-917007c7-3619-4518-9aa5-1990d46b56b0.png)
+
 In the diagram above, there are primary key and foreign keys for each data set. In the table containing the columns of the Campaign dataset, cf_id is the primary key, while contact_id, category_id and subcategory_id are foreign keys.
 Looking at the column names of the contacts table, contact_id is the primary key.
 While category_id is the primary key in category dataset, subcategory_id is primary key in sucategory dataset.
