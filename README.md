@@ -75,7 +75,6 @@ Table 8 shows the remaining goals of the supporters. In this table, there are co
 
 #### Table 9. Crowdfunding DB Relationships Data
 <img width="401" alt="Screen Shot 2022-11-03 at 4 27 21 PM" src="https://user-images.githubusercontent.com/26927158/199854142-c8db72b6-d800-4730-a4b7-2878cecffba3.png">
-###### backers
 <img width="390" alt="Screen Shot 2022-11-03 at 4 27 46 PM" src="https://user-images.githubusercontent.com/26927158/199854145-af735ec2-0d4d-4364-b947-8df4d686b250.png">
 Above is a table extracted from the QuickDBD website. The names and data types of the columns belonging to the campaign, category, sabcategory, contacts and backers datasets in this table are included. Using this table, the relationship between the data is determined.
 
