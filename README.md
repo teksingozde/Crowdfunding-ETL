@@ -1,9 +1,9 @@
 # Crowdfunding-ETL
 
-# Overview of Project
+## Overview of Project
 A client requested analysis of their crowdfunding data. These data were firstly analyzed and data cleaning was performed. Finally, it was uploaded to the SQL database and tables were created.
 
-## Resources
+### Resources
 
 ### Datasets:
 - crowdfunding.xlsx
@@ -20,14 +20,14 @@ A client requested analysis of their crowdfunding data. These data were firstly 
 - PostgreSQL 15.0
 - QuickDBD
 
-# Overview of the Analysis (ETL Process)
+## Overview of the Analysis (ETL Process)
 The data in the customer-provided "crowdfunding.xlsx" dataset is first transferred to the Python DataFrame. These data were separated into categories and subcategories, and a DataFrame was created and then transferred to the computer as a csv file. Classification of these data makes analysis easy. In the DataFrame contact information, keys and values are determined between the lines by list comprehension.
 
 Previously created DataFrames for category and subcategories are merged and some unnecessary columns are dropped. One of them is the contact_id column. It is first extracted from the contact information and added to the DataFrame required for crowdfunding analysis. Being an integer is an important rule.
 
 After the exported csv files are ready, ERD, in other words Entity Relationship Diagram, is drawn in order to explain the relationship between the columns in the table. Help is taken from QuickDBD for drawing this diagram. When the columns belonging to our data sets are used together with the data types and if we know our data set well, if the Primary Key and Foreign Keys are determined, it is possible to reveal the diagram easily. This diagram will show us the relationship between the data. When the schema SQL file obtained from the ERD diagram is run for the creation of the tables, validation is done.
 
-# Results 
+## Results 
 
 First of all, it should be explained that in the ETL process, the data must first go through the extraction and transformation phase. This stage contains the data "categories.csv" and "subcategories.csv".
 
